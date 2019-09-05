@@ -8,7 +8,7 @@ the format I'm looking for in your responses.
 '''
 
 # PROBLEM ONE: Create variables for each data type listed, and print as a demo.
-print("")
+print("")ff
 print("------------------- Homework One: ------------------")
 myname = "PUT YOUR NAME HERE"
 print("My name is: ", myname)
