@@ -18,11 +18,17 @@ print ("Problem one: ..... ..... ..... .....")
 b = True
 print(b, "is type", type(b))
 
+b=True
+10>3
+if 10>3:
+    print(b)
 
 # List
-
+L=[1,2,3,4,5]
+print("here is my list", L)
 # integer
-
+a=2
+print(a)
 # float
 
 # string
