@@ -30,9 +30,11 @@ print("here is my list", L)
 a=2
 print(a)
 # float
-
+a=2.3
+print(a)
 # string
-
+thisvariable="This is cool"
+print(thisvariable)
 
 
 # PROBLEM TWO: Show the use of each of: +, -, *, **, /, //, % with numbers.
@@ -43,6 +45,28 @@ a,b =5,9
 
 print(a, '+', b, '=', a+b)  #This demonstrates +
 
+b,c=1,2
+print(b,'+',c,'=', b+c)
+
+print(c,'',b,'=', c-b)
+
+print(b,'*',c,'=', b*c)
+import math
+print(b,'**',c,'=', b**c)
+
+print(c,'/',b,'=', c/b)
+
+d,w=64,8
+
+print(d,'//',w,'=', d//w)
+
+
+
+
+print(((2/10)*(100)),'%')
+
+
+
 
 
 
@@ -50,6 +74,7 @@ print(a, '+', b, '=', a+b)  #This demonstrates +
 #                sum of odd integers between 1003 and 30239 inclusive.
 print("")
 print ("Problem three: ..... ..... ..... .....")
+print("Sum of odds between 1003 and 30239: ",sum(range(1003,30240,3)))
 
 # Example: Sum of even integers between 8 and 20 inclusive:
 print("Sum of evens between 8 and 20: ", sum(range(8,21,2)))
@@ -60,11 +85,20 @@ print("Sum of evens between 8 and 20: ", sum(range(8,21,2)))
 #               seventh items.
 print("")
 print ("Problem four: ..... ..... ..... .....")
+List=[1,2,3,4,5,6,7,8]
+print("Here is my list:",List)
+print("The foruth item is:", List[3])
+print("The seventh item is:", List[6])
+
+
+
+
+
+
+
+
 
 
 #Example: Here, I create a list of 5 integers and print the 4th one.
-L=[3,5,2,0,1]
-print("My list: ",L)
-print("The fourth item in my list is: ", L[3])
 
 
