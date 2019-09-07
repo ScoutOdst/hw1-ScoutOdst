@@ -85,7 +85,7 @@ print("Sum of evens between 8 and 20: ", sum(range(8,21,2)))
 #               seventh items.
 print("")
 print ("Problem four: ..... ..... ..... .....")
-List=[1,2,3,4,5,6,7,8]
+List=[1,2,3,4,5,6,7,8,9,10]
 print("Here is my list:",List)
 print("The foruth item is:", List[3])
 print("The seventh item is:", List[6])
