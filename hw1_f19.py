@@ -18,20 +18,19 @@ print ("Problem one: ..... ..... ..... .....")
 b = True
 print(b, "is type", type(b))
 
-b=True
-10>3
-if 10>3:
-    print(b)
+
 
 # List
 L=[1,2,3,4,5]
 print("here is my list", L)
+print(L, "is type", type(L))
 # integer
 a=2
-print(a)
+
+print(a, "is type", type(a))
 # float
 a=2.3
-print(a)
+print(a, "is type", type(a))
 # string
 thisvariable="This is cool"
 print(thisvariable)
@@ -63,7 +62,7 @@ print(d,'//',w,'=', d//w)
 
 
 
-print(((2/10)*(100)),'%')
+print(w, '%', d, '=', w%d,)
 
 
 
@@ -74,7 +73,7 @@ print(((2/10)*(100)),'%')
 #                sum of odd integers between 1003 and 30239 inclusive.
 print("")
 print ("Problem three: ..... ..... ..... .....")
-print("Sum of odds between 1003 and 30239: ",sum(range(1003,30240,3)))
+print("Sum of odds between 1003 and 30239: ",sum(range(1003,30240,2)))
 
 # Example: Sum of even integers between 8 and 20 inclusive:
 print("Sum of evens between 8 and 20: ", sum(range(8,21,2)))
